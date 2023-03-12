@@ -9,7 +9,7 @@ a Redisson like distributed locking implementation using Redis.
 ## Installation
 
 ```shell
-go get github.com/cheerego/go-redisson
+go get github.com/ggdream/go-redisson
 ```
 
 
@@ -48,8 +48,8 @@ g := godisson.NewGodisson(rdb, godisson.WithWatchDogTimeout(30*time.Second))
 package main
 
 import (
-  "github.com/cheerego/go-redisson"
-  "github.com/go-redis/redis/v8"
+  "github.com/ggdream/go-redisson"
+  "github.com/redis/go-redis/v9"
   "github.com/pkg/errors"
   "log"
   "time"
@@ -136,8 +136,8 @@ func test2(g *godisson.Godisson) {
 package main
 
 import (
-  "github.com/cheerego/go-redisson"
-  "github.com/go-redis/redis/v8"
+  "github.com/ggdream/go-redisson"
+  "github.com/redis/go-redis/v9"
   "log"
   "time"
 )

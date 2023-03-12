@@ -2,7 +2,7 @@ package godisson
 
 import (
 	"fmt"
-	"github.com/go-redis/redis/v8"
+	"github.com/redis/go-redis/v9"
 	cmap "github.com/orcaman/concurrent-map"
 	uuid "github.com/satori/go.uuid"
 	"log"

@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/cheerego/go-redisson"
-	"github.com/go-redis/redis/v8"
 	"log"
 	"time"
+
+	godisson "github.com/ggdream/go-redisson"
+	"github.com/redis/go-redis/v9"
 )
 
 func main() {
